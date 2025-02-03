@@ -10,7 +10,7 @@ import Yourvideos from "../components/sidebar/Yourvideos"
 import Watchlater from "../components/sidebar/Watchlater"
 import Likedvideos from "../components/sidebar/Likedvideos"
 import Detail from "../components/sidebar/Yourvideos/detail"
-import Notfound from "../components/notfound"
+import Notfound from "../components/MainLayaut/NotFound"
 
 const RoutesComponent = () => {
     return (
