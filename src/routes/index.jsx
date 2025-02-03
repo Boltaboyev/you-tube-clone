@@ -9,8 +9,8 @@ import History from "../components/sidebar/History"
 import Yourvideos from "../components/sidebar/Yourvideos"
 import Watchlater from "../components/sidebar/Watchlater"
 import Likedvideos from "../components/sidebar/Likedvideos"
-import NotFound from "../components/notfound"
 import Detail from "../components/sidebar/Yourvideos/detail"
+import Notfound from "../components/notfound"
 
 const RoutesComponent = () => {
     return (
@@ -27,7 +27,7 @@ const RoutesComponent = () => {
                     <Route path="/likedvideos" element={<Likedvideos />} />
                 </Route>
                 <Route path="/details/:id" element={<Detail />} />
-                <Route path="*" element={<NotFound />} />
+                <Route path="*" element={<Notfound />} />
             </Routes>
         </>
     )
